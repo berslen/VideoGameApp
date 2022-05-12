@@ -72,8 +72,8 @@ class HomeFragment : Fragment(){
                             binding.emptySearchResult.isVisible = true
                         }else{
                             binding.emptySearchResult.isVisible = false
-                            binding.linearLayout.isVisible = false
                         }
+                        binding.linearLayout.isVisible = false
                         binding.recyclerView.adapter = VideoGameAdapter(searchResult as ArrayList<VideoGame>)
                         binding.searchImage.setImageResource(R.drawable.ic_cancel)
                         binding.searchImage.setOnClickListener{
