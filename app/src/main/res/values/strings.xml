@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Video Game App</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="game_image">Game Image</string>
+</resources>
